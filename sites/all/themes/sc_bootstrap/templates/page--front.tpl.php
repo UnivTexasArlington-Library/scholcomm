@@ -1,21 +1,14 @@
-<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="container-fluid">
-    <div class="row">
-      <?php if ($logo): ?>
-      <div class="col-md-3">
-        <a class="logo navbar-btn pull-left" href="http://library.uta.edu" title="University of Texas at Arlington">
-        <img src="<?php print $logo; ?>" alt="University of Texas at Arlington" />
-        </a>
-      </div> <!-- /.col-md-3 -->
-      <?php endif; ?>
 
-      <?php if (!empty($site_name)): ?>
-      <div class="col-md-8">
-        <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-      </div> <!-- /.col-md-9 -->
-      <?php endif; ?>
-    </div> <!-- /.row -->
-    
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <?php print render($page['university_logo']); ?>
+    </div>
+    <div class="col-md-8">
+      <?php print render($page['site_name']); ?>
+    </div>
+  </div>
+</div>
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
     <nav class="navbar navbar-default">
       <div class="container-fluid">
@@ -48,7 +41,6 @@
     </nav>
     <?php endif; ?>
   </div> <!-- /.container-fluid -->
-</header>
 
 <!--<div class="main-container container-fluid"> -->
 <!-- REMOVED FOR FRONT PAGE --
@@ -70,23 +62,7 @@
 
 <body>
   <!--  <section<?php print $content_column_class; ?>> -->
-    
-    <!-- JUMBOTRON/HIGHLIGHTED -->
-    
-      <div class="jumbotron">
-        <div class="container" id="blackboard"> <!--BACKGROUND IMAGE HERE -->
-          <div class="row">
-            <?php if (!empty($page['highlighted'])): ?>
-            <div class="col-md-4 col-md-offset-8">
-              <?php print render($page['highlighted']); ?>
-            </div> <!-- /.col-md-4 /.col-md-offset-8 -->
-          </div> <!-- /.row -->
-        </div> <!-- /. container -->
-      </div> <!-- /.jumbotron -->
-        <?php endif; ?>
-      
-      
-      <!-- <a id="main-content"></a> -->
+  <!-- <a id="main-content"></a> -->
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
       <!--  <h1 class="page-header"><?php print $title; ?></h1> -->
@@ -102,6 +78,21 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
+    
+    <!-- JUMBOTRON/HIGHLIGHTED -->
+    
+      <div class="jumbotron">
+        <div class="container" id="blackboard"> <!--BACKGROUND IMAGE HERE -->
+          <div class="row">
+            <?php if (!empty($page['highlighted'])): ?>
+            <div class="col-md-4 col-md-offset-8">
+              <?php print render($page['highlighted']); ?>
+            </div> <!-- /.col-md-4 /.col-md-offset-8 -->
+          </div> <!-- /.row -->
+        </div> <!-- /. container -->
+      </div> <!-- /.jumbotron -->
+        <?php endif; ?>
+      
     
     </div>
     

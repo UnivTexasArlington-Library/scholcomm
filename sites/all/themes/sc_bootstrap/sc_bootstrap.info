@@ -8,6 +8,8 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
+regions[university_logo]= 'University Logo'
+regions[site_name]		= 'Site Name'
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
@@ -15,12 +17,13 @@ regions[help]           = 'Help'
 regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
+regions[left] 			= 'Left'
+regions[middle] 		= 'Middle'
+regions[right] 			= 'Right'
 regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
-regions[right] 			= 'Right'
-regions[middle] 		= 'Middle'
-regions[left] 			= 'Left'
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;
