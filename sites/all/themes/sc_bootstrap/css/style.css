@@ -8567,39 +8567,60 @@ nav ul li a {
   text-align: center;
   margin-bottom: 5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000346}}
+nav ul li ul {
+  width: 100%;
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000348}}
+nav ul li ul li {
+  display: block;
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000358}}
 nav li:last-child {
   border-right: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000362}}
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
   margin-top: 20px;
   border: 10px solid #0064b1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000370}}
+.navbar .dropdown-menu:after {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000373}}
+.navbar .dropdown-menu:before {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000376}}
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000362}}
-.region-university-logo {
-  background-color: #cccdcd;
-  margin-left: -15px;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000381}}
+#site-header {
   height: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000385}}
+.region-university-logo {
+  background-color: #cccdcd;
+  /*margin-left: -15px;*/
+  height: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000389}}
 .region-university-logo a {
   text-align: center;
   color: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000395}}
 .region-site-name {
   background-color: #00447c;
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000398}}
 .region-site-name h1 {
   font-family: "Frutiger", Helvetica, Arial, sans-serif;
   font-weight: bolder;
@@ -8610,78 +8631,79 @@ nav li:last-child {
   text-decoration: none;
   letter-spacing: .1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003109}}
 .jumbotron {
   background-repeat: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003111}}
 .jumbotron h2 {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003114}}
 .jumbotron p {
   font-size: 18px;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003119}}
 .region-left,
 .region-middle,
 .region-right {
   padding-left: 30px;
   padding-right: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003122}}
 .region-left h2,
 .region-middle h2,
 .region-right h2 {
   padding-top: 20px;
   font-size: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003126}}
 .region-left p,
 .region-middle p,
 .region-right p {
   font-size: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003131}}
 .region-left .block-title {
   padding-left: 71px;
   background: url(/sites/all/themes/sc_bootstrap/images/Blue-Wifi-icon.png);
   background-size: 63px 44px;
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003138}}
 .region-middle {
   border-right: 2px solid #dddcdc;
   border-left: 2px solid #dddcdc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003141}}
 .region-middle .block-title {
   padding-left: 54px;
   background: url(/sites/all/themes/sc_bootstrap/images/blue-stories-icon.png);
   background-size: 46px 45px;
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003149}}
 .region-right .block-title {
   padding-left: 55px;
   background: url(/sites/all/themes/sc_bootstrap/images/blue-did-you-know.png);
   background-size: 47px 47px;
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003157}}
 #blackboard {
   background: url(/sites/all/themes/sc_bootstrap/images/man_blackboard.jpg);
   width: inherit;
   height: inherit;
-  background-size: cover;
+  background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003163}}
 #name {
   background-color: #00447c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003166}}
 #logo {
   background: url(/sites/all/themes/sc_bootstrap/images/Library-Logo-verticalBlueOrange.png);
   background-size: cover;
+  height: inherit;
 }

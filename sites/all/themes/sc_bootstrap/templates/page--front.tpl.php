@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <div class="row" id="name">
-    <div class="col-md-2 col-sm-2">
+    <div class="col-md-2 col-sm-2" id="site-header">
       <div id="logo">
       <?php print render($page['university_logo']); ?>
       </div>
