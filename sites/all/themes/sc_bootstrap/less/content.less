@@ -1,1 +1,147 @@
 // Insert your styling here.
+//Background color for `<body>`.
+@body-bg:               #fff;
+// Global text color on `<body>`.
+@text-color:            #00447c;
+
+// Global textual link color.
+@link-color:            #f58025;
+// Link hover color set via `darken()` function.
+@link-hover-color:      darken(@link-color, 15%);
+// Link hover decoration.
+@link-hover-decoration: underline;
+
+body {
+	color: @text-color;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size: 1.15em;
+	a {
+		color: @link-color;
+	&:hover {
+		color: @link-hover-color;
+		text-decoration: @link-hover-decoration;
+	}	
+	}
+}
+
+nav {
+	background-color: #0064b1;
+	text-align: center;
+	a {
+		color:#fff;
+		font-size: 30px;
+		text-decoration: none;
+	}
+	ul {
+		width: 100%;
+		li {
+    		float: none;
+    		border-right: 2px solid #dddcdc;
+    		display: inline-block;
+    		width: 16%;
+			a {
+      			text-align: center;
+      			margin-bottom: 5px;
+			}
+		}
+	}
+	li:last-child {
+		border-right: none;
+	}
+}
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+	margin-top: 20px;
+	border:10px solid #0064b1;
+}
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.region-university-logo {
+	background-color: #cccdcd;
+	margin-left: -15px;
+	height: inherit;   	
+	a {
+		text-align: center;
+		color:transparent;
+	}
+	
+}
+.region-site-name {
+	background-color: #00447c;
+	margin-top: 20px;
+	h1 {
+		font-family: "Frutiger", Helvetica, Arial, sans-serif;
+		font-weight: bolder;
+		font-size: 2.8em;
+		color:#fff;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+		letter-spacing: .1em;
+	}	
+}
+.jumbotron {
+	background-repeat: none;
+	h2 {
+		color: #fff;
+	}
+	p {
+		font-size: 18px;
+		color: #fff;
+	}
+}
+.region-left, .region-middle, .region-right {
+	padding-left: 30px;
+	padding-right: 30px;
+	h2 {
+		padding-top: 20px;
+		font-size: 30px;
+	}
+	p {
+		font-size: 18px;
+	}
+}
+.region-left {
+	.block-title {
+		padding-left: 71px;
+		background: url(/sites/all/themes/sc_bootstrap/images/Blue-Wifi-icon.png);
+		background-size: 63px 44px;
+		background-repeat: no-repeat;
+	}
+}
+.region-middle {
+	border-right: 2px solid #dddcdc;
+	border-left: 2px solid #dddcdc;
+	.block-title {
+		padding-left: 54px;
+		background: url(/sites/all/themes/sc_bootstrap/images/blue-stories-icon.png);
+		background-size: 46px 45px;
+		background-repeat: no-repeat;
+	}
+}
+.region-right {
+	.block-title {
+		padding-left: 55px;
+		background: url(/sites/all/themes/sc_bootstrap/images/blue-did-you-know.png);
+		background-size: 47px 47px;
+		background-repeat: no-repeat;
+	}
+
+}
+#blackboard {
+	background: url(/sites/all/themes/sc_bootstrap/images/man_blackboard.jpg);
+	width: inherit;
+	height: inherit;
+	background-size: cover;
+}
+#name {
+	background-color: #00447c;
+}
+#logo {
+	background: url(/sites/all/themes/sc_bootstrap/images/Library-Logo-verticalBlueOrange.png);
+	background-size: cover;
+
+}

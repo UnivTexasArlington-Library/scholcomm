@@ -365,8 +365,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 12.5px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000330}}
 h1 small,
@@ -390,8 +390,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000341}}
 h4 small,
@@ -411,54 +411,54 @@ h6 .small,
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000347}}
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 46px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000348}}
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 38px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000349}}
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 31px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000350}}
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 23px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000351}}
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 18px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000352}}
 h6,
 .h6 {
-  font-size: 12px;
+  font-size: 16px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000358}}
 p {
-  margin: 0 0 10px;
+  margin: 0 0 12.5px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000362}}
 .lead {
-  margin-bottom: 20px;
-  font-size: 16px;
+  margin-bottom: 25px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000368}}
   .lead {
-    font-size: 21px;
+    font-size: 27px;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000378}}
 small,
 .small {
-  font-size: 85%;
+  font-size: 88%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\0000383}}
 mark,
@@ -585,15 +585,15 @@ a.bg-danger:hover {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\00003147}}
 .page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
+  padding-bottom: 11.5px;
+  margin: 50px 0 25px;
   border-bottom: 1px solid #eeeeee;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\00003158}}
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 12.5px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\00003162}}
 ul ul,
@@ -622,7 +622,7 @@ ol ol {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\00003189}}
 dl {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\00003193}}
 dt,
@@ -666,9 +666,9 @@ abbr[data-original-title] {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\00003245}}
 blockquote {
-  padding: 10px 20px;
-  margin: 0 0 20px;
-  font-size: 17.5px;
+  padding: 12.5px 25px;
+  margin: 0 0 25px;
+  font-size: 22.5px;
   border-left: 5px solid #eeeeee;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\00003254}}
@@ -721,7 +721,7 @@ blockquote.pull-right .small:after {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/type\.less}line{font-family:\00003298}}
 address {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   font-style: normal;
   line-height: 1.42857143;
 }
@@ -759,9 +759,9 @@ kbd kbd {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/code\.less}line{font-family:\0000341}}
 pre {
   display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  font-size: 13px;
+  padding: 12px;
+  margin: 0 0 12.5px;
+  font-size: 17px;
   line-height: 1.42857143;
   word-break: break-all;
   word-wrap: break-word;
@@ -1685,7 +1685,7 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/tables\.less}line{font-family:\0000331}}
 .table > thead > tr > th,
@@ -1893,7 +1893,7 @@ table th[class*="col-"] {
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/tables\.less}line{font-family:\00003175}}
   .table-responsive {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 18.75px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #dddddd;
@@ -1953,8 +1953,8 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 20px;
-  font-size: 21px;
+  margin-bottom: 25px;
+  font-size: 27px;
   line-height: inherit;
   color: #333333;
   border: 0;
@@ -2006,7 +2006,7 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 7px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.42857143;
   color: #555555;
 }
@@ -2014,9 +2014,9 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 34px;
+  height: 39px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.42857143;
   color: #555555;
   background-color: #ffffff;
@@ -2073,7 +2073,7 @@ input[type="search"] {
   input[type="time"],
   input[type="datetime-local"],
   input[type="month"] {
-    line-height: 34px;
+    line-height: 39px;
   }
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003182}}
   input[type="date"].input-sm,
@@ -2084,7 +2084,7 @@ input[type="search"] {
   .input-group-sm input[type="time"],
   .input-group-sm input[type="datetime-local"],
   .input-group-sm input[type="month"] {
-    line-height: 30px;
+    line-height: 36px;
   }
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003187}}
   input[type="date"].input-lg,
@@ -2095,7 +2095,7 @@ input[type="search"] {
   .input-group-lg input[type="time"],
   .input-group-lg input[type="datetime-local"],
   .input-group-lg input[type="month"] {
-    line-height: 46px;
+    line-height: 53px;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003200}}
@@ -2113,7 +2113,7 @@ input[type="search"] {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003216}}
 .radio label,
 .checkbox label {
-  min-height: 20px;
+  min-height: 25px;
   padding-left: 20px;
   margin-bottom: 0;
   font-weight: normal;
@@ -2186,16 +2186,16 @@ fieldset[disabled] .checkbox label {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003314}}
 .input-sm {
-  height: 30px;
+  height: 36px;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
   border-radius: 3px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/forms\.less}line{font-family:\0000376}}
 select.input-sm {
-  height: 30px;
-  line-height: 30px;
+  height: 36px;
+  line-height: 36px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/forms\.less}line{font-family:\0000381}}
 textarea.input-sm,
@@ -2204,16 +2204,16 @@ select[multiple].input-sm {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003318}}
 .form-group-sm .form-control {
-  height: 30px;
+  height: 36px;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
   border-radius: 3px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/forms\.less}line{font-family:\0000376}}
 select.form-group-sm .form-control {
-  height: 30px;
-  line-height: 30px;
+  height: 36px;
+  line-height: 36px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/forms\.less}line{font-family:\0000381}}
 textarea.form-group-sm .form-control,
@@ -2222,23 +2222,23 @@ select[multiple].form-group-sm .form-control {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003321}}
 .form-group-sm .form-control-static {
-  height: 30px;
+  height: 36px;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003329}}
 .input-lg {
-  height: 46px;
+  height: 53px;
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/forms\.less}line{font-family:\0000376}}
 select.input-lg {
-  height: 46px;
-  line-height: 46px;
+  height: 53px;
+  line-height: 53px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/forms\.less}line{font-family:\0000381}}
 textarea.input-lg,
@@ -2247,16 +2247,16 @@ select[multiple].input-lg {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003333}}
 .form-group-lg .form-control {
-  height: 46px;
+  height: 53px;
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/forms\.less}line{font-family:\0000376}}
 select.form-group-lg .form-control {
-  height: 46px;
-  line-height: 46px;
+  height: 53px;
+  line-height: 53px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/forms\.less}line{font-family:\0000381}}
 textarea.form-group-lg .form-control,
@@ -2265,9 +2265,9 @@ select[multiple].form-group-lg .form-control {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003336}}
 .form-group-lg .form-control-static {
-  height: 46px;
+  height: 53px;
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 1.3333333;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003349}}
@@ -2276,7 +2276,7 @@ select[multiple].form-group-lg .form-control {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003354}}
 .has-feedback .form-control {
-  padding-right: 42.5px;
+  padding-right: 48.75px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003359}}
 .form-control-feedback {
@@ -2285,23 +2285,23 @@ select[multiple].form-group-lg .form-control {
   right: 0;
   z-index: 2;
   display: block;
-  width: 34px;
-  height: 34px;
-  line-height: 34px;
+  width: 39px;
+  height: 39px;
+  line-height: 39px;
   text-align: center;
   pointer-events: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003371}}
 .input-lg + .form-control-feedback {
-  width: 46px;
-  height: 46px;
-  line-height: 46px;
+  width: 53px;
+  height: 53px;
+  line-height: 53px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003376}}
 .input-sm + .form-control-feedback {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/forms\.less}line{font-family:\000038}}
 .has-success .help-block,
@@ -2416,7 +2416,7 @@ select[multiple].form-group-lg .form-control {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003396}}
 .has-feedback label ~ .form-control-feedback {
-  top: 25px;
+  top: 30px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003399}}
 .has-feedback label.sr-only ~ .form-control-feedback {
@@ -2427,7 +2427,7 @@ select[multiple].form-group-lg .form-control {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #008afc;
 }
 @media (min-width: 768px) {
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003434}}
@@ -2502,7 +2502,7 @@ select[multiple].form-group-lg .form-control {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003520}}
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 27px;
+  min-height: 32px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003526}}
 .form-horizontal .form-group {
@@ -2546,7 +2546,7 @@ select[multiple].form-group-lg .form-control {
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.42857143;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -2895,7 +2895,7 @@ fieldset[disabled] .btn-danger.active {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/buttons\.less}line{font-family:\0000388}}
 .btn-link {
-  color: #337ab7;
+  color: #f58025;
   font-weight: normal;
   border-radius: 0;
 }
@@ -2920,7 +2920,7 @@ fieldset[disabled] .btn-link {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/buttons\.less}line{font-family:\00003107}}
 .btn-link:hover,
 .btn-link:focus {
-  color: #23527c;
+  color: #c45b09;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -2936,7 +2936,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
@@ -2944,7 +2944,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-sm,
 .btn-group-sm > .btn {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -2952,7 +2952,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-xs,
 .btn-group-xs > .btn {
   padding: 1px 5px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -4094,7 +4094,7 @@ tbody.collapse.in {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 14px;
+  font-size: 18px;
   text-align: left;
   background-color: #ffffff;
   border: 1px solid #cccccc;
@@ -4113,7 +4113,7 @@ tbody.collapse.in {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/dropdowns\.less}line{font-family:\0000359}}
 .dropdown-menu .divider {
   height: 1px;
-  margin: 9px 0;
+  margin: 11.5px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -4180,7 +4180,7 @@ tbody.collapse.in {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #777777;
   white-space: nowrap;
@@ -4456,9 +4456,9 @@ tbody.collapse.in {
 .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
-  height: 46px;
+  height: 53px;
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
@@ -4466,8 +4466,8 @@ tbody.collapse.in {
 select.input-group-lg > .form-control,
 select.input-group-lg > .input-group-addon,
 select.input-group-lg > .input-group-btn > .btn {
-  height: 46px;
-  line-height: 46px;
+  height: 53px;
+  line-height: 53px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/forms\.less}line{font-family:\0000381}}
 textarea.input-group-lg > .form-control,
@@ -4482,9 +4482,9 @@ select[multiple].input-group-lg > .input-group-btn > .btn {
 .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn {
-  height: 30px;
+  height: 36px;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -4492,8 +4492,8 @@ select[multiple].input-group-lg > .input-group-btn > .btn {
 select.input-group-sm > .form-control,
 select.input-group-sm > .input-group-addon,
 select.input-group-sm > .input-group-btn > .btn {
-  height: 30px;
-  line-height: 30px;
+  height: 36px;
+  line-height: 36px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/forms\.less}line{font-family:\0000381}}
 textarea.input-group-sm > .form-control,
@@ -4526,7 +4526,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/input-groups\.less}line{font-family:\0000373}}
 .input-group-addon {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 1;
   color: #555555;
@@ -4538,13 +4538,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/input-groups\.less}line{font-family:\0000385}}
 .input-group-addon.input-sm {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 16px;
   border-radius: 3px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/input-groups\.less}line{font-family:\0000390}}
 .input-group-addon.input-lg {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 23px;
   border-radius: 6px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/input-groups\.less}line{font-family:\0000397}}
@@ -4652,12 +4652,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #337ab7;
+  border-color: #f58025;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navs\.less}line{font-family:\0000359}}
 .nav .nav-divider {
   height: 1px;
-  margin: 9px 0;
+  margin: 11.5px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -4854,7 +4854,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4979,9 +4979,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003164}}
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+  padding: 12.5px 15px;
+  font-size: 23px;
+  line-height: 25px;
   height: 50px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003171}}
@@ -5036,13 +5036,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003233}}
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 6.25px -15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003236}}
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 20px;
+  line-height: 25px;
 }
 @media (max-width: 767px) {
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003244}}
@@ -5062,7 +5062,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003256}}
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 20px;
+    line-height: 25px;
   }
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003258}}
   .navbar-nav .open .dropdown-menu > li > a:hover,
@@ -5082,8 +5082,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003273}}
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003287}}
@@ -5096,8 +5096,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 5.5px;
+  margin-bottom: 5.5px;
 }
 @media (min-width: 768px) {
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/forms\.less}line{font-family:\00003434}}
@@ -5200,13 +5200,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003344}}
 .navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 5.5px;
+  margin-bottom: 5.5px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003347}}
 .navbar-btn.btn-sm {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003350}}
 .navbar-btn.btn-xs {
@@ -5215,8 +5215,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003360}}
 .navbar-text {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
 }
 @media (min-width: 768px) {
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/navbar\.less}line{font-family:\00003363}}
@@ -5488,7 +5488,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/breadcrumbs\.less}line{font-family:\000036}}
 .breadcrumb {
   padding: 8px 15px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   list-style: none;
   background-color: #f5f5f5;
   border-radius: 4px;
@@ -5511,7 +5511,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 20px 0;
+  margin: 25px 0;
   border-radius: 4px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/pagination\.less}line{font-family:\0000310}}
@@ -5526,7 +5526,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #337ab7;
+  color: #f58025;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -5549,7 +5549,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #23527c;
+  color: #c45b09;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -5582,7 +5582,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 23px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/pagination\.less}line{font-family:\0000311}}
 .pagination-lg > li:first-child > a,
@@ -5600,7 +5600,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 16px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/mixins\/pagination\.less}line{font-family:\0000311}}
 .pagination-sm > li:first-child > a,
@@ -5617,7 +5617,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/pager\.less}line{font-family:\000036}}
 .pager {
   padding-left: 0;
-  margin: 20px 0;
+  margin: 25px 0;
   list-style: none;
   text-align: center;
 }
@@ -5747,7 +5747,7 @@ a.label:focus {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   color: #ffffff;
   line-height: 1;
@@ -5781,7 +5781,7 @@ a.badge:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/badges\.less}line{font-family:\0000348}}
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #337ab7;
+  color: #f58025;
   background-color: #ffffff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/badges\.less}line{font-family:\0000354}}
@@ -5811,7 +5811,7 @@ a.badge:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/jumbotron\.less}line{font-family:\0000317}}
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 21px;
+  font-size: 27px;
   font-weight: 200;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/jumbotron\.less}line{font-family:\0000323}}
@@ -5841,14 +5841,14 @@ a.badge:focus {
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/jumbotron\.less}line{font-family:\0000345}}
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 81px;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/thumbnails\.less}line{font-family:\000037}}
 .thumbnail {
   display: block;
   padding: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   line-height: 1.42857143;
   background-color: #ffffff;
   border: 1px solid #dddddd;
@@ -5867,17 +5867,17 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #337ab7;
+  border-color: #f58025;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/thumbnails\.less}line{font-family:\0000332}}
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  color: #00447c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/alerts\.less}line{font-family:\000039}}
 .alert {
   padding: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   border: 1px solid transparent;
   border-radius: 4px;
 }
@@ -5991,8 +5991,8 @@ a.thumbnail.active {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/progress-bars\.less}line{font-family:\0000326}}
 .progress {
   overflow: hidden;
-  height: 20px;
-  margin-bottom: 20px;
+  height: 25px;
+  margin-bottom: 25px;
   background-color: #f5f5f5;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -6004,8 +6004,8 @@ a.thumbnail.active {
   float: left;
   width: 0%;
   height: 100%;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 25px;
   color: #ffffff;
   text-align: center;
   background-color: #337ab7;
@@ -6335,7 +6335,7 @@ a.list-group-item-danger.active:focus {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/panels\.less}line{font-family:\000037}}
 .panel {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -6362,7 +6362,7 @@ a.list-group-item-danger.active:focus {
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 21px;
   color: inherit;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/panels\.less}line{font-family:\0000339}}
@@ -6575,7 +6575,7 @@ a.list-group-item-danger.active:focus {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/panels\.less}line{font-family:\00003216}}
 .panel-group {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/panels\.less}line{font-family:\00003220}}
 .panel-group .panel {
@@ -6771,7 +6771,7 @@ a.list-group-item-danger.active:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/bootstrap\/less\/close\.less}line{font-family:\000036}}
 .close {
   float: right;
-  font-size: 21px;
+  font-size: 27px;
   font-weight: bold;
   line-height: 1;
   color: #000000;
@@ -6949,8 +6949,8 @@ button.close {
   z-index: 1070;
   display: block;
   visibility: visible;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1.4;
   opacity: 0;
@@ -7072,8 +7072,8 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
+  font-size: 18px;
   font-weight: normal;
   line-height: 1.42857143;
   text-align: left;
@@ -7107,7 +7107,7 @@ button.close {
 .popover-title {
   margin: 0;
   padding: 8px 14px;
-  font-size: 14px;
+  font-size: 18px;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-radius: 5px 5px 0 0;
@@ -7997,7 +7997,7 @@ p:last-child {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/overrides\.less}line{font-family:\00003182}}
 .region-help > .glyphicon {
-  font-size: 18px;
+  font-size: 23px;
   float: left;
   margin: -0.05em 0.5em 0 0;
 }
@@ -8139,7 +8139,7 @@ table tr.error {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/overrides\.less}line{font-family:\00003294}}
 .control-group.error .help-block,
 .control-group.error .help-inline {
-  color: #333333;
+  color: #00447c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/overrides\.less}line{font-family:\00003301}}
 .list-inline > li.first {
@@ -8346,7 +8346,7 @@ a .glyphicon-spin {
 .tabs-left > .nav-tabs .summary,
 .tabs-right > .nav-tabs .summary {
   color: #777777;
-  font-size: 12px;
+  font-size: 16px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/overrides\.less}line{font-family:\00003487}}
 .tab-pane > .panel-heading {
@@ -8524,4 +8524,164 @@ table .checkbox input[type="checkbox"] {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/overrides\.less}line{font-family:\00003649}}
 .alert-danger a {
   color: #843534;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000314}}
+body {
+  color: #00447c;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000318}}
+body a {
+  color: #f58025;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000320}}
+body a:hover {
+  color: #c45b09;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000327}}
+nav {
+  background-color: #0064b1;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000330}}
+nav a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000335}}
+nav ul {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000337}}
+nav ul li {
+  float: none;
+  border-right: 2px solid #dddcdc;
+  display: inline-block;
+  width: 16%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000342}}
+nav ul li a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000348}}
+nav li:last-child {
+  border-right: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000352}}
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  margin-top: 20px;
+  border: 10px solid #0064b1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000358}}
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000362}}
+.region-university-logo {
+  background-color: #cccdcd;
+  margin-left: -15px;
+  height: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000366}}
+.region-university-logo a {
+  text-align: center;
+  color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000372}}
+.region-site-name {
+  background-color: #00447c;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000375}}
+.region-site-name h1 {
+  font-family: "Frutiger", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 2.8em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000386}}
+.jumbotron {
+  background-repeat: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000388}}
+.jumbotron h2 {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000391}}
+.jumbotron p {
+  font-size: 18px;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000396}}
+.region-left,
+.region-middle,
+.region-right {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000399}}
+.region-left h2,
+.region-middle h2,
+.region-right h2 {
+  padding-top: 20px;
+  font-size: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003103}}
+.region-left p,
+.region-middle p,
+.region-right p {
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003108}}
+.region-left .block-title {
+  padding-left: 71px;
+  background: url(/sites/all/themes/sc_bootstrap/images/Blue-Wifi-icon.png);
+  background-size: 63px 44px;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003115}}
+.region-middle {
+  border-right: 2px solid #dddcdc;
+  border-left: 2px solid #dddcdc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003118}}
+.region-middle .block-title {
+  padding-left: 54px;
+  background: url(/sites/all/themes/sc_bootstrap/images/blue-stories-icon.png);
+  background-size: 46px 45px;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003126}}
+.region-right .block-title {
+  padding-left: 55px;
+  background: url(/sites/all/themes/sc_bootstrap/images/blue-did-you-know.png);
+  background-size: 47px 47px;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003134}}
+#blackboard {
+  background: url(/sites/all/themes/sc_bootstrap/images/man_blackboard.jpg);
+  width: inherit;
+  height: inherit;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003140}}
+#name {
+  background-color: #00447c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003143}}
+#logo {
+  background: url(/sites/all/themes/sc_bootstrap/images/Library-Logo-verticalBlueOrange.png);
+  background-size: cover;
 }
