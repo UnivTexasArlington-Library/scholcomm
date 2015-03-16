@@ -8669,7 +8669,7 @@ nav li:last-child {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003132}}
 .region-left .block-title {
   padding-left: 71px;
-  background: url(/sites/all/themes/sc_bootstrap/images/Blue-Wifi-icon.png);
+  background: url(/sites/default/images/Blue-Wifi-icon.png);
   background-size: 63px 44px;
   background-repeat: no-repeat;
 }
@@ -8681,14 +8681,14 @@ nav li:last-child {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003142}}
 .region-middle .block-title {
   padding-left: 54px;
-  background: url(/sites/all/themes/sc_bootstrap/images/blue-stories-icon.png);
+  background: url(/sites/default/images/blue-stories-icon.png);
   background-size: 46px 45px;
   background-repeat: no-repeat;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003150}}
 .region-right .block-title {
   padding-left: 55px;
-  background: url(/sites/all/themes/sc_bootstrap/images/blue-did-you-know.png);
+  background: url(/sites/default/images/blue-did-you-know.png);
   background-size: 47px 47px;
   background-repeat: no-repeat;
 }
@@ -8698,7 +8698,7 @@ nav li:last-child {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003163}}
 #blackboard {
-  background: url(/sites/all/themes/sc_bootstrap/images/man_blackboard.jpg);
+  background: url(/sites/default/images/man_blackboard.jpg);
   width: inherit;
   height: inherit;
   background-size: auto;
@@ -8709,7 +8709,7 @@ nav li:last-child {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003172}}
 #logo {
-  background: url(/sites/all/themes/sc_bootstrap/images/Library-Logo-verticalBlueOrange.png);
+  background: url(/sites/default/images/Library-Logo-verticalBlueOrange.png);
   background-size: cover;
   height: inherit;
 }
