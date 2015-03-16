@@ -65,6 +65,7 @@ nav li:last-child {
   background-color: #cccdcd;
   /*margin-left: -15px;*/
   height: inherit;
+  padding: 10px 30px;
 }
 .region-university-logo a {
   text-align: center;
@@ -133,6 +134,9 @@ nav li:last-child {
   background: url(/sites/all/themes/sc_bootstrap/images/blue-did-you-know.png);
   background-size: 47px 47px;
   background-repeat: no-repeat;
+}
+.carousel-indicators .active {
+  color: #f58025;
 }
 #blackboard {
   background: url(/sites/all/themes/sc_bootstrap/images/man_blackboard.jpg);

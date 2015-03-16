@@ -8609,8 +8609,9 @@ nav li:last-child {
   background-color: #cccdcd;
   /*margin-left: -15px;*/
   height: inherit;
+  padding: 10px 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\0000390}}
 .region-university-logo a {
   text-align: center;
   color: transparent;
@@ -8691,18 +8692,22 @@ nav li:last-child {
   background-size: 47px 47px;
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003159}}
+.carousel-indicators .active {
+  color: #f58025;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003163}}
 #blackboard {
   background: url(/sites/all/themes/sc_bootstrap/images/man_blackboard.jpg);
   width: inherit;
   height: inherit;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003169}}
 #name {
   background-color: #00447c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kschenk\/Desktop\/scholcommModules\/sc_bootstrap\/less\/content\.less}line{font-family:\00003172}}
 #logo {
   background: url(/sites/all/themes/sc_bootstrap/images/Library-Logo-verticalBlueOrange.png);
   background-size: cover;
