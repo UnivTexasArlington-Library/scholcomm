@@ -110,6 +110,7 @@ nav li:last-child {
 .region-middle p,
 .region-right p {
   font-size: 18px;
+  color: #00447c;
 }
 .region-left .block-title {
   padding-left: 71px;
