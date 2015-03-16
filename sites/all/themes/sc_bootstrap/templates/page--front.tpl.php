@@ -1,11 +1,11 @@
 <div class="container-fluid">
   <div class="row" id="name">
-    <div class="col-md-2 col-sm-2" id="site-header">
+    <div class="col-md-2 col-sm-2 hidden-xs">
       <div id="logo">
       <?php print render($page['university_logo']); ?>
       </div>
     </div>
-    <div class="col-md-9 col-sm-9">
+    <div class="col-md-9 col-sm-9 col-xs-12">
       <?php print render($page['site_name']); ?>
     </div>
   </div>
@@ -79,15 +79,15 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-3 col-md-offset-1 col-sm-3">
+      <div class="col-md-3 col-sm-3">
         <?php print render($page['left']); ?>
       </div> <!-- /col-4 -->
                
-      <div class="col-md-3 col-sm-3">
+      <div class="col-md-4 col-sm-4">
         <?php print render($page['middle']); ?>
       </div> <!-- /col-4 -->
             
-      <div class="col-md-3 col-sm-3">
+      <div class="col-md-4 col-sm-4">
         <?php print render($page['right']); ?>
       </div> <!-- /col-4 -->
     </div> <!-- /.row -->

@@ -48,9 +48,6 @@ nav {
 				li{
 				display: block;
 				width:auto;
-					a{
-						font-size:inherit;
-					}
 				}
 			}
 
@@ -67,6 +64,8 @@ nav {
 	margin-bottom: 0;
 	margin-top: 20px;
 	border:10px solid #0064b1;
+
+	
 }
 .navbar .dropdown-menu:after{
 	display: none;
@@ -110,7 +109,10 @@ nav {
 .jumbotron {
 	background-repeat: none;
 	h2 {
-		color: #fff;
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
 	}
 	p {
 		font-size: 18px;
@@ -132,7 +134,7 @@ nav {
 .region-left {
 	.block-title {
 		padding-left: 71px;
-		background: url(/sites/default/files/Blue-Wifi-icon.png);
+		background: url(/sites/default/images/Blue-Wifi-icon.png);
 		background-size: 63px 44px;
 		background-repeat: no-repeat;
 	}
@@ -142,7 +144,7 @@ nav {
 	border-left: 2px solid #dddcdc;
 	.block-title {
 		padding-left: 54px;
-		background: url(/sites/default/files/blue-stories-icon.png);
+		background: url(/sites/default/images/blue-stories-icon.png);
 		background-size: 46px 45px;
 		background-repeat: no-repeat;
 	}
@@ -150,32 +152,37 @@ nav {
 .region-right {
 	.block-title {
 		padding-left: 55px;
-		background: url(/sites/default/files/blue-did-you-know.png);
+		background: url(/sites/default/images/blue-did-you-know.png);
 		background-size: 47px 47px;
 		background-repeat: no-repeat;
 	}
 
 }
 .carousel-indicators {
-	.active {
-		color: @link-color;
+	li {
+		width: 48px;
+		height: 4px;
+		border-radius:0;
+		border: solid 1px #fff;
+		background: #fff;
+		.active {
+		background: @link-color;
+		border: solid 1px @link-color;
+		}
 	}
-}
-.region-primary {
-	background-color: #dddcdc;
+	
 }
 #blackboard {
-	background: url(/sites/default/files/man_blackboard.jpg);
+	background: url(/sites/default/images/man_blackboard.jpg);
 	width: inherit;
 	height: inherit;
-	background-size: auto;
+	background-size: cover;
 }
 #name {
 	background-color: #00447c;
-	
 }
 #logo {
-	background: url(/sites/default/files/Library-Logo-verticalBlueOrange.png);
+	background: url(/sites/default/images/Library-Logo-verticalBlueOrange.png);
 	background-size: cover;
 	height:inherit;
 
