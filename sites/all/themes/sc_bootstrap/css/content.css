@@ -10,36 +10,53 @@ body a:hover {
   color: #c45b09;
   text-decoration: underline;
 }
+body h2 {
+  color: #f58025;
+  text-transform: uppercase;
+}
+body h3 {
+  text-transform: uppercase;
+}
 nav {
   background-color: #0064b1;
   text-align: center;
 }
 nav a {
-  color: #fff;
-  font-size: 30px;
   text-decoration: none;
 }
 nav ul {
   width: 100%;
 }
 nav ul li {
+  float: left;
+  display: block;
+}
+.nav > li {
   float: none;
   border-right: 2px solid #dddcdc;
   display: inline-block;
   width: 16%;
 }
-nav ul li a {
+.nav > li a {
   text-align: center;
   margin-bottom: 5px;
+  font-size: 30px;
+  color: #fff;
 }
-nav ul li ul {
-  width: 100%;
+.nav > li a:hover {
+  color: #f58025;
 }
-nav ul li ul li {
-  display: block;
-  width: auto;
+.nav > li:nth-child(5) {
+  background: url(/sites/default/files/new54.png);
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
 }
-nav li:last-child {
+.nav > li:nth-child(6) {
+  background-image: url(/sites/default/files/magnifier12.png);
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+.nav > li:last-child {
   border-right: none;
 }
 .navbar {
@@ -54,47 +71,102 @@ nav li:last-child {
 .navbar .dropdown-menu:before {
   display: none;
 }
+.dropdown-menu > li > a {
+  color: #00447c;
+  font-size: 20px;
+  display: block;
+}
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
 }
-#site-header {
-  height: inherit;
+.blue {
+  background-color: #00447c;
 }
-.region-university-logo {
-  background-color: #cccdcd;
-  /*margin-left: -15px;*/
+.logo {
+  background-color: #dddcdc;
+  margin-left: auto;
+  margin-right: auto;
   height: inherit;
   padding: 10px 30px;
 }
-.region-university-logo a {
+.logo a {
   text-align: center;
   color: transparent;
 }
-.region-site-name {
+.site-name {
   background-color: #00447c;
+  height: inherit;
+  padding-left: 30px;
   margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.region-site-name h1 {
+.site-name a {
   font-family: "Frutiger", Helvetica, Arial, sans-serif;
   font-weight: bolder;
-  font-size: 2.8em;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
   letter-spacing: .1em;
+  font-size: 2.8em;
+  line-height: 1em;
+}
+@screen-md-max {
+  font-size: 23px;
+  line-height: 25px;
+}
+.site-name a:hover {
+  color: #fff;
 }
 .jumbotron {
   background-repeat: none;
+  height: 400px;
 }
-.jumbotron h2 a {
+.jumbotron h2 {
   color: #fff;
-  text-decoration: none;
 }
 .jumbotron p {
   font-size: 18px;
   color: #fff;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+.carousel-indicators li {
+  width: 48px;
+  height: 4px;
+  border-radius: 0;
+  border: solid 1px #fff;
+  background: #fff;
+}
+.carousel-indicators li.active {
+  width: 48px;
+  height: 4px;
+  border-radius: 0;
+  background: #f58025;
+  border: solid 1px #f58025;
+}
+.breadcrumb {
+  float: right;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.page-header {
+  padding-top: 20px;
+  padding-bottom: 0;
+  border-bottom: none;
+  margin-bottom: 12px;
+}
+.region-sidebar-first {
+  margin-bottom: 25px;
+}
+.region-sidebar-first h2 {
+  color: #00447c;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-bottom: 25px;
 }
 .region-left,
 .region-middle,
@@ -107,17 +179,21 @@ nav li:last-child {
 .region-right h2 {
   padding-top: 20px;
   font-size: 30px;
+  color: #00447c;
 }
 .region-left p,
 .region-middle p,
 .region-right p {
   font-size: 18px;
-  color: #00447c;
+}
+.three-columns {
+  padding-left: 0;
+  padding-right: 0;
 }
 .region-left .block-title {
-  padding-left: 71px;
-  background: url(/sites/default/images/Blue-Wifi-icon.png);
-  background-size: 63px 44px;
+  padding-left: 55px;
+  background: url(/sites/default/files/blue-did-you-know.png);
+  background-size: 47px 47px;
   background-repeat: no-repeat;
 }
 .region-middle {
@@ -126,38 +202,26 @@ nav li:last-child {
 }
 .region-middle .block-title {
   padding-left: 54px;
-  background: url(/sites/default/images/blue-stories-icon.png);
+  background: url(/sites/default/files/blue-stories-icon.png);
   background-size: 46px 45px;
   background-repeat: no-repeat;
 }
 .region-right .block-title {
-  padding-left: 55px;
-  background: url(/sites/default/images/blue-did-you-know.png);
-  background-size: 47px 47px;
+  padding-left: 74px;
+  background: url(/sites/default/files/Blue-Wifi-icon.png);
+  background-size: 63px 44px;
   background-repeat: no-repeat;
 }
-.carousel-indicators li {
-  width: 48px;
-  height: 4px;
+.region-sidebar-first {
   border-radius: 0;
-  border: solid 1px #fff;
-  background: #fff;
 }
-.carousel-indicators li .active {
-  background: #f58025;
-  border: solid 1px #f58025;
+.well {
+  margin-top: 20px;
 }
 #blackboard {
-  background: url(/sites/default/images/man_blackboard.jpg);
+  background: url('/sites/default/files/man_blackboard.jpg');
   width: inherit;
   height: inherit;
+  min-height: 500px;
   background-size: cover;
-}
-#name {
-  background-color: #00447c;
-}
-#logo {
-  background: url(/sites/default/images/Library-Logo-verticalBlueOrange.png);
-  background-size: cover;
-  height: inherit;
 }

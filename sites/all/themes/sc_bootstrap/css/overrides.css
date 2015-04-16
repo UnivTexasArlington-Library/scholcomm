@@ -68,17 +68,17 @@ body #admin-menu .dropdown li {
 }
 @media screen and (min-width: 768px) {
   .navbar.container {
-    max-width: 720px;
+    max-width: 700px;
   }
 }
 @media screen and (min-width: 992px) {
   .navbar.container {
-    max-width: 940px;
+    max-width: 920px;
   }
 }
 @media screen and (min-width: 1200px) {
   .navbar.container {
-    max-width: 1140px;
+    max-width: 1120px;
   }
 }
 .navbar.container > .container {
@@ -550,8 +550,8 @@ table .checkbox input[type="checkbox"] {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 7px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   text-align: right;
 }
 @media (min-width: 768px) {

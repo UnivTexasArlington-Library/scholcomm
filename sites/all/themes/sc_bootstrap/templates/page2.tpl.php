@@ -55,11 +55,11 @@
     
 
 <body>
-  <!--<?php print render($title_prefix); ?>
+  <?php print render($title_prefix); ?>
   <?php if (!empty($title)): ?>
-    <h1 class="page-header"><?php print $title; ?></h1> 
+  <!--  <h1 class="page-header"><?php print $title; ?></h1> -->
   <?php endif; ?>
-  <?php print render($title_suffix); ?> 
+  <?php print render($title_suffix); ?>
   <?php print $messages; ?>
   <?php if (!empty($tabs)): ?>
   <?php print render($tabs); ?>
@@ -69,43 +69,34 @@
   <?php endif; ?>
   <?php if (!empty($action_links)): ?>
   <ul class="action-links"><?php print render($action_links); ?></ul>
-  <?php endif; ?> -->
+  <?php endif; ?>
     
-    <!-- JUMBOTRON/HIGHLIGHTED -->
-    
-  <div class="row">
-    <?php print $messages; ?>
-    <?php if (!empty($page['sidebar_first'])): ?>
-    <div class="col-md-3">
-      <?php print render($page['sidebar_first']); ?>
-    </div>
-    <?php endif; ?>
+    <!-- MAIN CONTENT -->
+  <div class="container" > <!--BACKGROUND IMAGE HERE -->
+      <div class="row" id="breadcrumb">
+        <div class="col-md-12">
+          <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
+        </div>
+      </div>
 
-    <div class="col-md-8 col-md-offset-1">
-      <section<?php print $content_column_class; ?>>
-        <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
-        <a id="main-content"></a>
-        <?php print render($title_prefix); ?>
-        <?php if (!empty($title)): ?>
-          <h1 class="page-header"><?php print $title; ?></h1>
-        <?php endif; ?>
-        <?php print render($title_suffix); ?>
+      <div class="row">
+              
+      <a id="main-content"></a>
+      <?php print render($title_prefix); ?>
+      <?php if (!empty($title)): ?>
         
-        <?php if (!empty($tabs)): ?>
-          <?php print render($tabs); ?>
-        <?php endif; ?>
-        <?php if (!empty($page['help'])): ?>
-          <?php print render($page['help']); ?>
-        <?php endif; ?>
-        <?php if (!empty($action_links)): ?>
-          <ul class="action-links"><?php print render($action_links); ?></ul>
-        <?php endif; ?>
-        <?php print render($page['content']); ?>
-      </section>
-    </div>
-
-    
-  </div>
+        <div class="col-md-4">
+          <?php print render($page['sidebar_first']); ?>
+        </div>
+        <div class="col-md=7">
+          
+          <h2 class="page-header"><?php print $title; ?></h2>
+            <?php endif; ?>
+            <?php print render($title_suffix); ?>
+            <?php print render($page['content']); ?>
+        </div>
+      </div>
+  </div> 
 </body>
 <footer class="footer container-fluid">
   <?php print render($page['footer']); ?>

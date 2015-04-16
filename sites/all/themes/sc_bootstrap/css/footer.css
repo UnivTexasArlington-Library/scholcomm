@@ -1,0 +1,11 @@
+.footer {
+  background-color: #00447C;
+  margin-top: 20px;
+  border-top: none;
+}
+.footer a {
+  color: #fff;
+}
+.footer a:hover {
+  color: #f58025;
+}

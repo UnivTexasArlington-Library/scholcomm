@@ -55,11 +55,11 @@
     
 
 <body>
-  <!--<?php print render($title_prefix); ?>
+  <?php print render($title_prefix); ?>
   <?php if (!empty($title)): ?>
-    <h1 class="page-header"><?php print $title; ?></h1> 
+  <!--  <h1 class="page-header"><?php print $title; ?></h1> -->
   <?php endif; ?>
-  <?php print render($title_suffix); ?> 
+  <?php print render($title_suffix); ?>
   <?php print $messages; ?>
   <?php if (!empty($tabs)): ?>
   <?php print render($tabs); ?>
@@ -69,19 +69,18 @@
   <?php endif; ?>
   <?php if (!empty($action_links)): ?>
   <ul class="action-links"><?php print render($action_links); ?></ul>
-  <?php endif; ?> -->
+  <?php endif; ?>
     
     <!-- JUMBOTRON/HIGHLIGHTED -->
     
   <div class="row">
-    <?php print $messages; ?>
     <?php if (!empty($page['sidebar_first'])): ?>
-    <div class="col-md-3">
+    <div class="col-md-5">
       <?php print render($page['sidebar_first']); ?>
     </div>
     <?php endif; ?>
 
-    <div class="col-md-8 col-md-offset-1">
+    <div class="col-md-7">
       <section<?php print $content_column_class; ?>>
         <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
         <a id="main-content"></a>
@@ -90,7 +89,7 @@
           <h1 class="page-header"><?php print $title; ?></h1>
         <?php endif; ?>
         <?php print render($title_suffix); ?>
-        
+        <?php print $messages; ?>
         <?php if (!empty($tabs)): ?>
           <?php print render($tabs); ?>
         <?php endif; ?>
@@ -103,8 +102,6 @@
         <?php print render($page['content']); ?>
       </section>
     </div>
-
-    
   </div>
 </body>
 <footer class="footer container-fluid">

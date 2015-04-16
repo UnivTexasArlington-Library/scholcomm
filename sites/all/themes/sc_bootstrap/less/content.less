@@ -17,10 +17,17 @@ body {
 	font-size: 1.15em;
 	a {
 		color: @link-color;
-	&:hover {
-		color: @link-hover-color;
-		text-decoration: @link-hover-decoration;
-	}	
+		&:hover {
+			color: @link-hover-color;
+			text-decoration: @link-hover-decoration;
+		}	
+	}
+	h2 {
+		color: @link-color;
+		text-transform: uppercase;
+	}
+	h3 {
+		text-transform: uppercase;
 	}
 }
 
@@ -28,63 +35,75 @@ nav {
 	background-color: #0064b1;
 	text-align: center;
 	a {
-		color:#fff;
-		font-size: 30px;
 		text-decoration: none;
 	}
 	ul {
 		width: 100%;
 		li {
-    		float: none;
-    		border-right: 2px solid #dddcdc;
-    		display: inline-block;
-    		width: 16%;
-			a {
-      			text-align: center;
-      			margin-bottom: 5px;
-			}
-			ul {
-			width:100%;
-				li{
-				display: block;
-				width:auto;
-				}
-			}
-
-		}
-
+			float:left;
+			display: block;
+			
+		}	
 	}
+}
 
-	li:last-child {
-		border-right: none;
+.nav > li {
+	float: none;
+    border-right: 2px solid #dddcdc;
+    display: inline-block;
+    width: 16%;
+	a {
+    	text-align: center;
+    	margin-bottom: 5px;
+    	font-size: 30px;
+    	color: #fff;
 	}
+	a:hover {
+		color: @link-color;
+	}
+}
+.nav > li:nth-child(5) {
+	background: url(/sites/default/files/new54.png);
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+}
+.nav > li:nth-child(6) {
+	background-image: url(/sites/default/files/magnifier12.png);
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+}
+.nav > li:last-child {
+	border-right: none;
 }
 .navbar {
 	border-radius: 0;
 	margin-bottom: 0;
 	margin-top: 20px;
 	border:10px solid #0064b1;
+}
 
-	
-}
-.navbar .dropdown-menu:after{
+.navbar .dropdown-menu:after {
 	display: none;
 }
-.navbar .dropdown-menu:before{
+.navbar .dropdown-menu:before {
 	display: none;
+}
+.dropdown-menu > li > a {
+	color: #00447c;
+	font-size: 20px;
+	display: block;
 }
 .container-fluid {
 	padding-left: 0px;
 	padding-right: 0px;
 }
-
-#site-header{
-	height: inherit;
+.blue {
+	background-color: #00447c;
 }
-
-.region-university-logo {
-	background-color: #cccdcd;
-	/*margin-left: -15px;*/
+.logo {
+	background-color: #dddcdc;
+	margin-left: auto;
+	margin-right: auto;
 	height: inherit;
 	padding: 10px 30px;
 	a {
@@ -92,31 +111,80 @@ nav {
 		color:transparent;
 	}	
 }
-.region-site-name {
+
+.site-name {
 	background-color: #00447c;
+	height: inherit;
+	padding-left: 30px;
 	margin-top: 20px;
-	h1 {
+	margin-right: auto;
+	margin-left: auto;
+	a {
 		font-family: "Frutiger", Helvetica, Arial, sans-serif;
 		font-weight: bolder;
-		font-size: 2.8em;
 		color:#fff;
 		text-transform: uppercase;
 		text-align: center;
 		text-decoration: none;
 		letter-spacing: .1em;
-	}	
+		font-size: 2.8em;
+		line-height: 1em;
+		@screen-md-max {
+			font-size: 23px;
+			line-height: 25px;
+		}
+	}
+	a:hover {
+		color: #fff;
+	}
 }
 .jumbotron {
 	background-repeat: none;
+	height: 400px;
 	h2 {
-		a {
-			color: #fff;
-			text-decoration: none;
-		}
+		color: #fff;
 	}
 	p {
 		font-size: 18px;
 		color: #fff;
+	}
+}
+.carousel-indicators {
+	bottom:-50px;
+	li {
+		width: 48px;
+		height: 4px;
+		border-radius:0;
+		border: solid 1px #fff;
+		background: #fff;
+	}
+	li.active {
+		width: 48px;
+		height: 4px;
+		border-radius:0;
+		background: @link-color;
+		border: solid 1px @link-color;
+	
+	}
+}
+.breadcrumb {
+ 	float: right;
+ 	margin-bottom: 0;
+ 	font-size: 14px;
+}
+.page-header {
+	padding-top: 20px;
+	padding-bottom: 0;
+	border-bottom: none;
+	margin-bottom: 12px;
+}
+.region-sidebar-first {
+	margin-bottom: 25px;
+	h2 {
+		color: @text-color;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		margin-bottom: 25px;
 	}
 }
 .region-left, .region-middle, .region-right {
@@ -125,17 +193,21 @@ nav {
 	h2 {
 		padding-top: 20px;
 		font-size: 30px;
+		color: @text-color;
 	}
 	p {
 		font-size: 18px;
-		color: @text-color;
 	}
+}
+.three-columns {
+	padding-left: 0;
+	padding-right: 0;
 }
 .region-left {
 	.block-title {
-		padding-left: 71px;
-		background: url(/sites/default/images/Blue-Wifi-icon.png);
-		background-size: 63px 44px;
+		padding-left: 55px;
+		background: url(/sites/default/files/blue-did-you-know.png);
+		background-size: 47px 47px;
 		background-repeat: no-repeat;
 	}
 }
@@ -144,46 +216,29 @@ nav {
 	border-left: 2px solid #dddcdc;
 	.block-title {
 		padding-left: 54px;
-		background: url(/sites/default/images/blue-stories-icon.png);
+		background: url(/sites/default/files/blue-stories-icon.png);
 		background-size: 46px 45px;
 		background-repeat: no-repeat;
 	}
 }
 .region-right {
 	.block-title {
-		padding-left: 55px;
-		background: url(/sites/default/images/blue-did-you-know.png);
-		background-size: 47px 47px;
+		padding-left: 74px;
+		background: url(/sites/default/files/Blue-Wifi-icon.png);
+		background-size: 63px 44px;
 		background-repeat: no-repeat;
 	}
-
 }
-.carousel-indicators {
-	li {
-		width: 48px;
-		height: 4px;
-		border-radius:0;
-		border: solid 1px #fff;
-		background: #fff;
-		.active {
-		background: @link-color;
-		border: solid 1px @link-color;
-		}
-	}
-	
+.region-sidebar-first {
+	border-radius: 0;
+}
+.well {
+	margin-top: 20px;
 }
 #blackboard {
-	background: url(/sites/default/images/man_blackboard.jpg);
+	background: url('/sites/default/files/man_blackboard.jpg');
 	width: inherit;
 	height: inherit;
+	min-height: 500px;
 	background-size: cover;
-}
-#name {
-	background-color: #00447c;
-}
-#logo {
-	background: url(/sites/default/images/Library-Logo-verticalBlueOrange.png);
-	background-size: cover;
-	height:inherit;
-
 }
