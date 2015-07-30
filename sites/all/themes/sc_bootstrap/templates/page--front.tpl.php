@@ -77,7 +77,7 @@
 <div class="container-fluid navbar-default blue" > <!-- EDITED-->
   <div class="row blue title navbar-header">
 
-    <div class="col-lg-1 col-md-1 col-sm-2 hidden-xs logo" >
+    <div class="col-lg-1 col-md-2 col-sm-2 hidden-xs logo" >
       <div class="navbar-header pull-right">
           <?php if ($logo): ?>
         <a class="navbar-btn" href="http://library.uta.edu/" title="University of Texas at Arlington Libraries">
@@ -109,8 +109,8 @@
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
       
       <div class="nav-collapse collapse nav-content"><!-- navbar , appears in larger screens -->
-        <nav role="navigation">
-          <ul class="nav nav-pills nav-justified main-menu">
+        <nav role="navigation" class="">
+          <ul class="nav nav-pills nav-justified main-menu"> 
           <?php if (!empty($primary_nav)): ?>
             <?php print render($primary_nav); ?>
           <?php endif; ?>
