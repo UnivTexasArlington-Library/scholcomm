@@ -182,7 +182,7 @@ nav ul li:hover > ul {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 15px;
-  padding-left: 25px !important;
+  padding-left: 40px !important;
 }
 .logo a {
   text-align: center;
@@ -198,8 +198,7 @@ nav ul li:hover > ul {
   margin-left: auto;
   vertical-align: middle;
 }
-.site-name a,
-.extrainfo a {
+.site-name a {
   font-family: "Frutiger", Helvetica, Arial, sans-serif;
   font-weight: bolder;
   color: #fff;
@@ -208,20 +207,21 @@ nav ul li:hover > ul {
   letter-spacing: .1em;
   font-size: 2.2em;
   line-height: 1em;
+  text-align: left;
 }
-@media (min-width: 1450px) and (max-width: 1500px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .site-name a {
     font-size: 2em;
   }
 }
-@media (min-width: 900px) and (max-width: 1449px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .site-name a {
     margin: auto;
     font-size: 2em;
     text-align: center;
   }
 }
-@media (max-width: 899px) {
+@media (max-width: 767px) {
   .site-name a {
     /*padding-left: 15px;*/
     font-size: 1.5em;
@@ -283,15 +283,30 @@ nav ul li:hover > ul {
   background: url('/sites/default/files/man_blackboard.jpg');
   min-height: inherit;
   background-size: cover;
-  background-position: 0 -100px;
+  /*background-position: 0 -100px;*/
   background-repeat: no-repeat;
 }
-@media (min-width: 900px) and (max-width: 1449px) {
+@media (min-width: 1400px) {
+  #blackboard {
+    background-position: 0px -9em;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
   #blackboard {
     background-position: 0px -70px;
   }
 }
-@media (min-width: 100px) and (max-width: 899px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  #blackboard {
+    background-position: 0px -70px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #blackboard {
+    background-position: -19px -26px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
   #blackboard {
     background-position: -30px 0px;
     height: 400px;
@@ -510,7 +525,7 @@ blockquote {
 @media (min-width: 1200px) {
   /*and (max-width: @screen-lg-max)*/
   .title {
-    width: 1500px;
+    width: 100%;
   }
   .title-block {
     width: 1000px;
@@ -574,7 +589,7 @@ blockquote {
     font-size: 10px;
   }
   .title-block {
-    width: 550px;
+    width: 500px;
     text-align: left;
   }
   .nav > li {
@@ -632,7 +647,7 @@ blockquote {
   .nav > li {
     display: block;
     border-bottom: 1px solid #dddcdc;
-    width: 200px;
+    width: 280px;
   }
   .nav > li:nth-child(5),
   .nav > li:nth-child(6) {
@@ -667,6 +682,10 @@ blockquote {
   .dropdown-menu li.last.leaf {
     border-bottom: 1px solid #dddcdc !important;
   }
+  .dropdown-menu li.last.leaf > a {
+    line-height: 20px;
+    white-space: normal;
+  }
   .nav-ul-li-remove-border {
     border-bottom: 0px !important;
   }
@@ -679,11 +698,11 @@ blockquote {
      }*/
 }
 /*xs screen ends*/
-@media (min-width: 1450px) and (max-width: 1500px) {
+/*@media (min-width: 1450px) and (max-width: 1500px) {
   .logo {
     width: 165px;
   }
-}
+}*/
 .header-navbar {
   border: 0px !important;
 }

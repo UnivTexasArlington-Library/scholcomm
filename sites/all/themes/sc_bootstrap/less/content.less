@@ -217,7 +217,7 @@ nav ul li:hover > ul {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 15px;
-  padding-left: 25px !important;
+  padding-left: 40px !important;
 }
 .logo a {
   text-align: center;
@@ -234,8 +234,7 @@ nav ul li:hover > ul {
   margin-left: auto;
   vertical-align: middle;
 }
-.site-name a,
-.extrainfo a {
+.site-name a{
   font-family: "Frutiger", Helvetica, Arial, sans-serif;
   font-weight: bolder;
   color: #fff;
@@ -244,24 +243,16 @@ nav ul li:hover > ul {
   letter-spacing: .1em;
   font-size: 2.2em;
   line-height: 1em;
-}
-@media (min-width: 1450px) and (max-width: 1500px) {
-  .site-name a
-  {
+  text-align: left;
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
     font-size: 2em;
   }
-}
-@media (min-width: 900px) and (max-width: 1449px) {
-  .site-name a
-  {
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
     margin: auto;
     font-size: 2em;
     text-align: center;
   }
-}
-@media (max-width: 899px) {
-  .site-name a,
-  {
+@media (max-width: @screen-xs-max) {
     /*padding-left: 15px;*/
     font-size: 1.5em;
     line-height: 0.8em;
@@ -324,20 +315,26 @@ nav ul li:hover > ul {
   background: url('/sites/default/files/man_blackboard.jpg');
   min-height: inherit;
   background-size: cover;
-  background-position: 0 -100px;
+  /*background-position: 0 -100px;*/
   background-repeat: no-repeat;
-}
-@media (min-width: 900px) and (max-width: 1449px) {
-  #blackboard {
+  @media (min-width: 1400px)  {
+    background-position: 0px -9em;
+  }
+@media (min-width: @screen-lg-min) and (max-width: 1399px) {
     background-position: 0px -70px;
   }
-}
-@media (min-width: 100px) and (max-width: 899px) {
-  #blackboard {
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    background-position: 0px -70px;
+  }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    background-position: -19px -26px;
+  }
+@media (min-width: @screen-xs-min) and (max-width: @screen-xs-max) {
     background-position: -30px 0px;
     height: 400px;
   }
 }
+
 .region-highlighted {
   min-height: 400px;
   margin-top: -40px;
@@ -552,7 +549,7 @@ blockquote {
 @media (min-width: @screen-lg-min)  {
   /*and (max-width: @screen-lg-max)*/
   .title{
-    width: 1500px;
+    width: 100%;
   }
   .title-block {
     width: 1000px;
@@ -623,7 +620,7 @@ blockquote {
     font-size: 10px;
   }
   .title-block {
-    width: 550px;
+    width: 500px;
     text-align: left;
   }
   .nav > li{
@@ -686,7 +683,7 @@ blockquote {
   .nav > li{
     display: block;
     border-bottom: 1px solid #dddcdc;
-    width: 200px;
+    width: 280px;
   }
   .nav > li:nth-child(5), 
   .nav > li:nth-child(6) {
@@ -722,7 +719,10 @@ blockquote {
     .dropdown-menu li.last.leaf{
       border-bottom: 1px solid #dddcdc !important;
       }
-
+    .dropdown-menu li.last.leaf>a{
+      line-height: 20px;
+      white-space: normal;
+    }
      .nav-ul-li-remove-border
      {
       border-bottom: 0px !important;
@@ -731,18 +731,18 @@ blockquote {
       padding-bottom: 0px !important;
       margin-bottom: 0px !important;
      }
+
+
   /*   .dropdown-menu{
       word-wrap: break-word;
      }*/
 }/*xs screen ends*/
 
-
-
-@media (min-width: 1450px) and (max-width: 1500px) {
+/*@media (min-width: 1450px) and (max-width: 1500px) {
   .logo {
     width: 165px;
   }
-}
+}*/
 .header-navbar {
   border: 0px !important;
 }
