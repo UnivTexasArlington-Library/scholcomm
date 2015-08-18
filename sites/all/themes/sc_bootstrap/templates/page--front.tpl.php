@@ -104,11 +104,10 @@
 </div>
      
       <!-- seperator between header and menu -->
-      <div class=" box ">
-      </div>
+      <div class=" box "></div>
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
       
-      <div class="nav-collapse collapse nav-content"><!-- navbar , appears in larger screens -->
+      <div class="nav-collapse collapse nav-content" id="nav-menu"><!-- navbar , appears in larger screens -->
         <nav role="navigation" class="">
           <ul class="nav nav-pills nav-justified main-menu"> 
           <?php if (!empty($primary_nav)): ?>

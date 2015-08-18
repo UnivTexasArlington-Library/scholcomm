@@ -11,6 +11,7 @@ jQuery(document).ready(function($) {
 		}
 	});
 
+
 	//add class to remove padding
 	$("nav ul li a").on("click", function(e) {
 		e.preventDefault();
@@ -20,19 +21,29 @@ jQuery(document).ready(function($) {
 		else{
 			$(this).addClass("nav-ul-li-a-remove-padding");	
 		}
+
 	});
 
-	/*$('html').click(function () {
-		if($("nav ul li").hasClass("nav-ul-li-remove-border")){
-			$("nav ul li").removeClass("nav-ul-li-remove-border");
-		}*/
-    /*if (e.target.id == 'li.first.expanded.dropdown.active') {
-        //do something
-        $("nav ul li").removeclass("nav-ul-li-remove-border");
-    } else {
-        //do something
-    }*/
-	/*});*/
+	
+		//hide menu
+		$(document).ready(function () {
+    		$(document).click(function (e) {
+        		var clickover = e.target.className;
+        		var _opened = $("#nav-menu").hasClass("in");
+        		if (_opened === true) {
+        			
+        			//Restoring border
+        			$("nav ul li").removeClass("nav-ul-li-remove-border");
+
+					//Restoring padding
+					$("nav ul li a").removeClass("nav-ul-li-a-remove-padding");
+				
+            		//Closing the menu
+            		$("button.navbar-toggle").click();
+        		}
+        		
+    		});
+		});
 
 });
 
