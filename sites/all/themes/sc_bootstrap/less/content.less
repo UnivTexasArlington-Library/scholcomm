@@ -272,7 +272,7 @@ nav ul li:hover > ul {
   
 }
 @media (max-width: @screen-xs-max) {
-    height: 300px;
+   /* height: 300px;*/
 }
 }
 /*.field-content  ul{
@@ -306,7 +306,7 @@ nav ul li:hover > ul {
     font-size: 27px;
   }
   .jumbotron p,.field-content  ul {
-    font-size: 0.75em;
+    font-size: 0.71em;
   }
 }
 /*@media (max-width: @screen-xs-max) {
@@ -367,7 +367,7 @@ nav ul li:hover > ul {
     top: 325px;
 }
 @media (max-width: @screen-xs-max) {
-    top: 300px;
+    top: 23em;
   }
 }
 .carousel-indicators li {
@@ -554,9 +554,9 @@ blockquote {
   .title{
     width: 100%;
   }
-  .title-block {
+  /*.title-block {
     width: 1000px;
-  }
+  }*/
   .navbar {
     border: 0px;
   }
@@ -570,6 +570,9 @@ blockquote {
     .collapse {
     display: inline !important;
     visibility: visible !important;
+  }
+  nav ul li:hover > ul {
+  display: none;
   }
 }/*lg screen ends*/
 
@@ -611,7 +614,9 @@ blockquote {
      padding-left: 0px !important;
     }
   }
-
+nav ul li:hover > ul {
+  display: none;
+  }
 }/*md screen ends*/
 
 
@@ -631,7 +636,7 @@ blockquote {
     font-size: 10px;
   }
   .title-block {
-    width: 17em;
+    width: 15em;
     text-align: left;
   }
   .nav > li{
@@ -659,20 +664,25 @@ blockquote {
   .dropdown-menu > li > a{
     font-size: 1em !important;
   }
+  nav ul li:hover > ul {
+  display: none;
+  }
 }/*sm screen ends*/
 
 
 /*xs screen 320px - 767px*/
 @media  (max-width: @screen-xs-max) {
-    .caret.up {
-    border-top-width: 0;
-    border-bottom: 4px solid;
+  .navbar-nav .open .dropdown-menu{
+    position:inherit ;
   }
   .nav .dropdown.open .caret{
     border-top: none;
     border-bottom: 4px solid;
 }
-  .navbar-brand {
+.nav .dropdown.open{
+  border-bottom: 0px;
+}
+ .navbar-brand {
     float: right !important;
     text-align: left;
   }
@@ -724,9 +734,10 @@ blockquote {
   .nav > li {
     border-right: 0px !important;
   }
-  nav ul li:hover > ul {
+ nav ul li:hover > ul {
   display: none;
   }
+
   .nav{
   padding: 0px;
   }
@@ -750,20 +761,13 @@ blockquote {
       margin-bottom: 0px !important;
      }
      .carousel-inner{
+    position: absolute;
       overflow: none;
      }
 
-
-  /*   .dropdown-menu{
-      word-wrap: break-word;
-     }*/
 }/*xs screen ends*/
 
-/*@media (min-width: 1450px) and (max-width: 1500px) {
-  .logo {
-    width: 165px;
-  }
-}*/
+
 .header-navbar {
   border: 0px !important;
 }
@@ -782,23 +786,6 @@ blockquote {
     margin-top: 0px !important;
   }
 }/*smaller screens ends*/
-
-
-/*/*Background Position
-  #blackboard {
-@media (min-width: 625px) and (max-width: 750px) {
-
-    background-position: -100px !important;
-  }
-
-@media (min-width:550px ) and (max-width: 624px) {
-    background-position: -150px !important;
-  }
-
-@media (min-width:30px ) and (max-width: 549px) {
-    background-position: -300px !important;
-  }
-}*/
 
 .title-block{
   @media (min-width: 610px) and (max-width: 670px) {
@@ -832,8 +819,75 @@ blockquote {
     }
   }
 
-
 .region-navigation{
   text-align: left;
 }
+
+/*FOOTER STYLES*/
+
+.inq-links{
+          float:left;
+        }
+    
+    /*lg screens*/
+    @media (min-width: @screen-lg-min) {
+        .inq-links{
+          width: 25em;
+        }
+        .cc-info{
+          float:right;
+        }
+        .text-right, .inq-links-right{
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      }/*lg screen ends*/
+
+      /*md screen*/
+      @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+        .text-right, .inq-links-right{
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+          .cc-info img{
+           width: 125px !important;
+        }
+      }/*md screen ends*/
+      
+
+      /*sm screen*/
+      @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+        .address-block{
+          margin-bottom: 10px;
+        }
+        .cc-info{
+          float: right;
+        }
+        .text-right, .inq-links-right{
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+        .cc-info img{
+           width: 125px !important;
+        }
+      }/*sm screen ends*/
+
+      /*xs screen*/
+      @media (max-width: @screen-xs-max) {
+        .address-block,  .links, .cc-info{
+          width: 100%
+        }
+        .links{
+          margin-bottom: 10px;
+          text-align: left;
+        }
+        .footer{
+          margin: auto;
+          text-align: center !important;
+          text-align: -moz-center !important;
+        }
+        .inq-links-right{
+          text-align: left;
+        }
+      }/*xs screen ends*/
 

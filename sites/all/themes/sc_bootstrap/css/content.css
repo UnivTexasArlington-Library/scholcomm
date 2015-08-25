@@ -243,7 +243,7 @@ nav ul li:hover > ul {
 }
 @media (max-width: 767px) {
   .jumbotron {
-    height: 300px;
+    /* height: 300px;*/
   }
 }
 /*.field-content  ul{
@@ -281,7 +281,7 @@ nav ul li:hover > ul {
   }
   .jumbotron p,
   .field-content ul {
-    font-size: 0.75em;
+    font-size: 0.71em;
   }
 }
 /*@media (max-width: @screen-xs-max) {
@@ -357,7 +357,7 @@ nav ul li:hover > ul {
 }
 @media (max-width: 767px) {
   .carousel-indicators {
-    top: 300px;
+    top: 23em;
   }
 }
 .carousel-indicators li {
@@ -545,9 +545,9 @@ blockquote {
   .title {
     width: 100%;
   }
-  .title-block {
+  /*.title-block {
     width: 1000px;
-  }
+  }*/
   .navbar {
     border: 0px;
   }
@@ -560,6 +560,9 @@ blockquote {
   .collapse {
     display: inline !important;
     visibility: visible !important;
+  }
+  nav ul li:hover > ul {
+    display: none;
   }
 }
 /*lg screen ends*/
@@ -597,6 +600,9 @@ blockquote {
   .nav > li:nth-child(1) a {
     padding-left: 0px !important;
   }
+  nav ul li:hover > ul {
+    display: none;
+  }
 }
 /*md screen ends*/
 /*small screen 768px- 991px*/
@@ -614,7 +620,7 @@ blockquote {
     font-size: 10px;
   }
   .title-block {
-    width: 17em;
+    width: 15em;
     text-align: left;
   }
   .nav > li {
@@ -639,17 +645,22 @@ blockquote {
   .dropdown-menu > li > a {
     font-size: 1em !important;
   }
+  nav ul li:hover > ul {
+    display: none;
+  }
 }
 /*sm screen ends*/
 /*xs screen 320px - 767px*/
 @media (max-width: 767px) {
-  .caret.up {
-    border-top-width: 0;
-    border-bottom: 4px solid;
+  .navbar-nav .open .dropdown-menu {
+    position: inherit ;
   }
   .nav .dropdown.open .caret {
     border-top: none;
     border-bottom: 4px solid;
+  }
+  .nav .dropdown.open {
+    border-bottom: 0px;
   }
   .navbar-brand {
     float: right !important;
@@ -727,18 +738,11 @@ blockquote {
     margin-bottom: 0px !important;
   }
   .carousel-inner {
+    position: absolute;
     overflow: none;
   }
-  /*   .dropdown-menu{
-      word-wrap: break-word;
-     }*/
 }
 /*xs screen ends*/
-/*@media (min-width: 1450px) and (max-width: 1500px) {
-  .logo {
-    width: 165px;
-  }
-}*/
 .header-navbar {
   border: 0px !important;
 }
@@ -756,21 +760,6 @@ blockquote {
   }
 }
 /*smaller screens ends*/
-/*/*Background Position
-  #blackboard {
-@media (min-width: 625px) and (max-width: 750px) {
-
-    background-position: -100px !important;
-  }
-
-@media (min-width:550px ) and (max-width: 624px) {
-    background-position: -150px !important;
-  }
-
-@media (min-width:30px ) and (max-width: 549px) {
-    background-position: -300px !important;
-  }
-}*/
 @media (min-width: 610px) and (max-width: 670px) {
   .title-block {
     margin-right: 40px !important;
@@ -813,3 +802,73 @@ blockquote {
 .region-navigation {
   text-align: left;
 }
+/*FOOTER STYLES*/
+.inq-links {
+  float: left;
+}
+/*lg screens*/
+@media (min-width: 1200px) {
+  .inq-links {
+    width: 25em;
+  }
+  .cc-info {
+    float: right;
+  }
+  .text-right,
+  .inq-links-right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+/*lg screen ends*/
+/*md screen*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .text-right,
+  .inq-links-right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .cc-info img {
+    width: 125px !important;
+  }
+}
+/*md screen ends*/
+/*sm screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .address-block {
+    margin-bottom: 10px;
+  }
+  .cc-info {
+    float: right;
+  }
+  .text-right,
+  .inq-links-right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .cc-info img {
+    width: 125px !important;
+  }
+}
+/*sm screen ends*/
+/*xs screen*/
+@media (max-width: 767px) {
+  .address-block,
+  .links,
+  .cc-info {
+    width: 100%;
+  }
+  .links {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .footer {
+    margin: auto;
+    text-align: center !important;
+    text-align: -moz-center !important;
+  }
+  .inq-links-right {
+    text-align: left;
+  }
+}
+/*xs screen ends*/
