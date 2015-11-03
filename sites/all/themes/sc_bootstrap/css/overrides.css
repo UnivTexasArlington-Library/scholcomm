@@ -1,7 +1,3 @@
-/* Padding for `<th>`s and `<td>`s. */
-/* Padding for cells in `.table-condensed`. */
-/* Default background color used for all tables.*/
-/* Background for the dropdown menu. */
 html.overlay-open .navbar-fixed-top {
   z-index: 400;
 }
