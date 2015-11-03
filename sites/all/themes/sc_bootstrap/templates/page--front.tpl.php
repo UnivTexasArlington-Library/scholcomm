@@ -73,7 +73,7 @@
  * @ingroup themeable
  */
 ?>
-<nav class="navbar  header-navbar   ">
+<nav class="navbar header-navbar">
 <div class="container-fluid navbar-default blue" > <!-- EDITED-->
   <div class="row blue title navbar-header">
 
@@ -110,15 +110,15 @@
       <div class="nav-collapse collapse nav-content" id="nav-menu"><!-- navbar , appears in larger screens -->
         <nav role="navigation" class="">
           <ul class="nav nav-pills nav-justified main-menu"> 
-          <?php if (!empty($primary_nav)): ?>
+            <?php if (!empty($primary_nav)): ?>
             <?php print render($primary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($secondary_nav)): ?>
+            <?php endif; ?>
+            <?php if (!empty($secondary_nav)): ?>
             <?php print render($secondary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($page['navigation'])): ?>
+            <?php endif; ?>
+            <?php if (!empty($page['navigation'])): ?>
             <?php print render($page['navigation']); ?>
-            </ul>
+          </ul>
           <?php endif; ?>
         </nav>
       </div> <!-- /.nav-collapse .collapse-->
@@ -128,7 +128,7 @@
   </div> <!-- /.container-fluid -->
     
 
-<body>
+
   <?php print render($title_prefix); ?>
   <?php if (!empty($title)): ?>
   <!--  <h1 class="page-header"><?php print $title; ?></h1> -->
@@ -175,7 +175,7 @@
       </div> <!-- /col-4 -->
     </div> <!-- /.row -->
   </div> <!-- /.container-fluid (END OF LEFT/MIDDLE/RIGHT) -->
-</body>
+
 <footer class="footer container-fluid">
   <?php print render($page['footer']); ?>
 </footer>
