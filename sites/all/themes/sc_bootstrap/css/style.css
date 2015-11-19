@@ -7882,6 +7882,7 @@ blockquote {
 .footer p,
 .footer a {
   color: #fff;
+  font-size: 0.8em;
 }
 .footer a:hover {
   color: #f58025;
