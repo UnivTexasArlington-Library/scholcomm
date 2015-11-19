@@ -7879,6 +7879,7 @@ blockquote {
   margin-top: 20px;
   border-top: none;
 }
+.footer p,
 .footer a {
   color: #fff;
 }
