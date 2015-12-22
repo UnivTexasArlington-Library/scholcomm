@@ -7881,8 +7881,6 @@ blockquote {
 .footer {
   background-color: #00447C;
   margin-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
   border-top: none;
 }
 .footer p,
@@ -7892,4 +7890,8 @@ blockquote {
 }
 .footer a:hover {
   color: #f58025;
+}
+.region-footer {
+  padding-left: 25px;
+  padding-right: 25px;
 }
