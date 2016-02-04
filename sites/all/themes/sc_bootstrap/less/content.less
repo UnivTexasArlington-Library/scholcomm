@@ -74,8 +74,8 @@ nav {
   background-color: #0064b1;
   text-align: center;
 
- a {
-  text-decoration: none;
+  a {
+    text-decoration: none;
   }
   ul, .contextual-links-region ul {
   width: 100%;
@@ -118,6 +118,11 @@ nav ul li:hover > ul {
 }
 .nav > li > a:hover, .nav > li > a:focus {
     background-color: transparent;
+  }
+  .nav .open > a, 
+  .nav .open > a:hover, 
+  .nav .open > a:focus {
+    color: @text-orange;
   }
 /*@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
   .nav > li a {

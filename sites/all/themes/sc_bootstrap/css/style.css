@@ -7089,6 +7089,11 @@ nav ul li:hover > ul {
 .nav > li > a:focus {
   background-color: transparent;
 }
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  color: #f58025;
+}
 /*@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
   .nav > li a {
     font-size: 20px;
