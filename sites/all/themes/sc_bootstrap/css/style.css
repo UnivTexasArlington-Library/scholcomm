@@ -7107,29 +7107,29 @@ nav ul li:hover > ul {
 .nav > li a:hover {
   color: #f58025;
 }
-.nav > li:nth-child(5) {
+.menu .nav > li:nth-child(5) {
   background: url(/sites/default/files/media.png);
   background-repeat: no-repeat;
   background-size: 30px 30px;
   background-position: center;
   text-indent: -9999px;
 }
-.nav > li:nth-child(5):hover {
+.menu .nav > li:nth-child(5):hover {
   text-indent: initial;
   background-position: 0 -9999px;
 }
-.nav > li:nth-child(6) {
+.menu .nav > li:nth-child(6) {
   background-image: url(/sites/default/files/magnifier.png);
   background-repeat: no-repeat;
   background-size: 30px 30px;
   background-position: center;
   text-indent: -9999px;
 }
-.nav > li:nth-child(6):hover {
+.menu .nav > li:nth-child(6):hover {
   text-indent: initial;
   background-position: 0 -9999px;
 }
-.nav > li:last-child {
+.menu .nav > li:last-child {
   border-right: none;
 }
 .navbar {
@@ -7499,7 +7499,7 @@ nav ul li:hover > ul {
 .region-right .block-title {
   padding-left: 65px;
   background: url(/sites/default/files/Blue-Wifi-icon.png);
-  background-size: 55px 55px;
+  background-size: 55px 45px;
   background-repeat: no-repeat;
 }
 @media (max-width: 991px) {
