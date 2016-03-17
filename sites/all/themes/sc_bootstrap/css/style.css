@@ -7886,6 +7886,10 @@ blockquote {
 .table-bordered {
   margin: 20px 20px 20px 0;
 }
+.region-content {
+  margin-right: 50px;
+  margin-left: 50px;
+}
 ul.nav-stacked > li {
   display: block;
   width: 100%;
