@@ -7886,11 +7886,12 @@ blockquote {
 ul.nav-stacked > li {
   display: block;
   width: 100%;
+  border-right: none;
 }
 ul.nav-stacked > li > a {
   font-size: 18px;
   text-decoration: none;
-  color: default;
+  color: #0064b1;
   text-align: left;
 }
 ul.nav-stacked > li > a:hover,
