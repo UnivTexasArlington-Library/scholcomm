@@ -7883,6 +7883,9 @@ blockquote {
   }
 }
 /*xs screen ends*/
+.table-bordered {
+  margin: 20px 20px 20px 0;
+}
 ul.nav-stacked > li {
   display: block;
   width: 100%;
