@@ -84,7 +84,7 @@
 
     <!-- <div class="col-md-9 col-md-offset-1"> -->
       <section<?php print $content_column_class; ?>>
-        <div class="container">
+        
           <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
           <a id="main-content"></a>
           <?php print render($title_prefix); ?>
@@ -103,8 +103,13 @@
             <ul class="action-links"><?php print render($action_links); ?></ul>
           <?php endif; ?>
           <?php print render($page['content']); ?>
-        </div>
+        
       </section>
+      <?php if (!empty($page['sidebar_second'])): ?>
+      <aside class="col-sm-3" role="complementary">
+        <?php print render($page['sidebar_second']); ?>
+      </aside>  <!-- /#sidebar-second -->
+    <?php endif; ?>
   </div>
 </body>
 <footer class="footer container-fluid">
