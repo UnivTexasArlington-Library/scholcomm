@@ -7891,6 +7891,7 @@ ul.nav-stacked > li > a {
   font-size: 18px;
   text-decoration: none;
   color: default;
+  text-align: left;
 }
 ul.nav-stacked > li > a:hover,
 ul.nav-stacked > li > a:focus {
