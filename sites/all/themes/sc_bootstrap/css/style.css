@@ -7883,8 +7883,19 @@ blockquote {
   }
 }
 /*xs screen ends*/
+ul.nav-stacked > li {
+  display: block;
+  width: 100%;
+}
 ul.nav-stacked > li > a {
   font-size: 18px;
+  text-decoration: none;
+  color: default;
+}
+ul.nav-stacked > li > a:hover,
+ul.nav-stacked > li > a:focus {
+  background-color: #fff;
+  text-decoration: none;
 }
 .footer {
   background-color: #00447C;

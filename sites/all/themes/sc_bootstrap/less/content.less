@@ -901,6 +901,16 @@ nav ul li:hover > ul {
         }
       }/*xs screen ends*/
 
-ul.nav-stacked > li > a {
-  font-size: 18px;
+ul.nav-stacked > li {
+  display: block;
+  width: 100%;
+  > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: default;
+    &:hover, &:focus {
+      background-color:#fff;
+      text-decoration: none;
+    }
+  }
 }
