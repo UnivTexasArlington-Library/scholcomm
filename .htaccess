@@ -1,3 +1,4 @@
+Redirect 301 / http://library.uta.edu/scholcomm/
 Redirect 301 /search/node http://library.uta.edu/search
 Redirect 301 /contact http://library.uta.edu/scholcomm/contact
 Redirect 301 /services/public-access-mandates-sponsored-research http://libguides.uta.edu/datamanagement/plans
